@@ -2,5 +2,5 @@ Texture(Test,Data[{0-0-0}:{0-0-0}:{0-0-0}:{0-0-0}:{0-255-0}:{255-0-0}:{0-0-255}:
 Material(TestMaterial,0.7,Color[0.1:0.1:0.1],Texture[Test]);
 Cube(Position[0:1:0],Rotation[0:0:0],Scale[1:1:1],Material[TestMaterial]);
 Plane(Position[0:0:0],Rotation[0:0:0],Scale[1:1:1],Physics[Static]);
-Light(Position[0:0:0],Rotation[0:0:0],Settings[Point:10:2]);
+Light(Position[0:0:0],Rotation[0:0:0],Settings[Point:10:2],ID[MainLight:Default:NoTag]);
 MapLoaded
